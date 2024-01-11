@@ -1,6 +1,6 @@
 <?php
 
-//$response = file_get_contents('https://currencydatafeed.com/api/data.php?token=eux779vrdpe5t19jwdwf&currency=EUR/USD');
+//$response = file_get_contents('https://currencydatafeed.com/api/data.php?token=your_api&currency=EUR/USD');
 //$response = json_decode($response);
 
 // Fetching JSON
@@ -29,7 +29,7 @@ if(false !== $response_json) {
 	echo $AED_price;
 }
 
-/*$api_url = 'https://currencydatafeed.com/api/data.php?token=eux779vrdpe5t19jwdwf&currency=EUR/USD';
+/*$api_url = 'https://currencydatafeed.com/api/data.php?token=your_api&currency=EUR/USD';
 
 // Read JSON file
 $json_data = file_get_contents($api_url);
